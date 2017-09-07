@@ -1,0 +1,77 @@
+/* styles */
+#app {
+  font: 14px 'Helvetica Neue',Helvetica,Arial, sans-serif;
+  color: #4d4d4d;
+  min-width: 550px;
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.hotelGrid {
+  padding: 0;
+  margin-left: 10px;
+  list-style-type: none;
+  &--lineElement {
+    display: block;
+    border-bottom: 1px solid #DCE8F4;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+  }
+}
+
+a.active {
+  color: orange;
+}
+
+nav {
+  padding-top: 20px;
+}
+
+h2:after {
+  content: "";
+  position: absolute;
+  border-bottom: 4px solid #fb0a36;
+  margin-top: 24px;
+  margin-left: 10px;
+  width: 578px;
+}
+
+.caret-right {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 2px;
+  vertical-align: middle;
+  border-left: 4px solid;
+  border-bottom: 4px solid transparent;
+  border-top: 4px solid transparent;
+  margin-right: 5px;
+}
+
+.floatRight {
+  float: right;
+  padding-right: 4px;
+}
+
+.paddingBottom {
+  padding-bottom: 4px;
+  margin-left: -3px;
+}
+
+.seeAllHotels {
+  margin-top: 15px;
+  float: right;
+  padding-right: 5px;
+  padding-bottom: 5px;
+}
+
+.seeEachHotel {
+  float: left;
+  padding-left: 20px;
+  padding-bottom: 6px;
+}
+
+.imageSpacing {
+  margin-right: 2px;
+}
